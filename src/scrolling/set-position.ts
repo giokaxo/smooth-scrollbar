@@ -1,9 +1,10 @@
 import clamp from 'lodash-es/clamp';
+import {TweenMax} from 'gsap';
 import * as I from '../interfaces/';
 
-import {
-  setStyle,
-} from '../utils/';
+// import {
+//   setStyle,
+// } from '../utils/';
 
 export function setPosition(
   scrollbar: I.Scrollbar,
@@ -41,14 +42,14 @@ export function setPosition(
   offset.x = x;
   offset.y = y;
 
-  setStyle(contentEl, {
-    '-transform': `translate3d(${-x}px, ${-y}px, 0)`,
+  TweenMax.to(contentEl, {
+    transform: `translate3d(${-x}px, ${-y}px, 0)`,
   });
 
   track.update();
 
   return {
-    offset: { ...offset },
-    limit: { ...limit },
+    offset: {...offset},
+    limit: {...limit},
   };
 }

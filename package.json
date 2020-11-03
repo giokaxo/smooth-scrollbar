@@ -1,6 +1,6 @@
 {
   "name": "smooth-scrollbar",
-  "version": "8.5.3",
+  "version": "8.5.4",
   "description": "Customize scrollbar in modern browsers with smooth scrolling experience.",
   "main": "dist/smooth-scrollbar.js",
   "jsnext:main": "index.js",
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/idiotWu/smooth-scrollbar.git"
+    "url": "git+https://github.com/giokaxo/smooth-scrollbar.git"
   },
   "keywords": [
     "scrollbar",
@@ -41,9 +41,9 @@
   "author": "Dolphin Wood <dolphin.w.e@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/idiotWu/smooth-scrollbar/issues"
+    "url": "https://github.com/giokaxo/smooth-scrollbar/issues"
   },
-  "homepage": "https://github.com/idiotWu/smooth-scrollbar#readme",
+  "homepage": "https://github.com/giokaxo/smooth-scrollbar#readme",
   "devDependencies": {
     "@types/dat-gui": "^0.6.3",
     "@types/lodash-es": "^4.17.3",
