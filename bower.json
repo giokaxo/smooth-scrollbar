@@ -1,5 +1,5 @@
 {
-  "name": "smooth-scrollbar",
+  "name": "@giokaxo/smooth-scrollbar",
   "version": "8.5.4",
   "authors": [
     "Dolphin Wood <dolphin.w.e@gmail.com>"
@@ -18,7 +18,7 @@
     "performance"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/idiotWu/smooth-scrollbar",
+  "homepage": "https://github.com/giokaxo/smooth-scrollbar",
   "ignore": [
     "**/.*",
     "node_modules",
